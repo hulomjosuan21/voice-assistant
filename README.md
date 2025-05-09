@@ -16,20 +16,6 @@ A Basic Python-based voice assistant powered by [LiveKit Agents](https://github.
 
 ---
 
-## 🗂️ Project Structure
-
-voice-assistant/
-│
-├── agent.py # Core assistant logic with function tools
-├── api.py # (Optional) API logic
-├── promp.py # (Optional) Prompt functions
-├── test.py # (Optional) Testing logic
-├── .env # Environment variables (not tracked by Git)
-├── requirements.txt # Python dependencies
-├── KMS/ # (Optional) Additional modules
-├── venv/ # Python virtual environment (Git ignored)
----
-
 ## 🧪 Requirements
 
 - Python 3.8+
