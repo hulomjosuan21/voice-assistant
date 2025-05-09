@@ -38,19 +38,10 @@ venv\Scripts\activate           # Windows
 pip install -r requirements.txt
 ```
 
-# Example .env
-LIVEKIT_URL=your_livekit_url
-LIVEKIT_API_KEY=your_livekit_api_key
-LIVEKIT_API_SECRET=your_livekit_api_secret
-GOOGLE_API_KEY=your_gemini_api_key
-CARTESIA_API_KEY=your_cartesia_api_key
-DEEPGRAM_API_KEY=your_deepgram_api_key
-
-
 ### Run the the agent to console via voice or text prompt
 ```base
 python agent.py console
 ```
-
-
 ### and upload the .ino file to the esp32
+
+### DONT FORGET TO SET THE API KEYS!
